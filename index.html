@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Our Date 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FLOATING HEARTS -->
+    <div class="hearts">
+        <span>💕</span>
+        <span>💗</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>💗</span>
+    </div>
+
+
+    <!-- SLIDE 1 -->
+    <div class="container" id="firstSlide">
+
+        <h1>Hey Babuu 💕</h1>
+
+        <p>Will you go on a date with me? 💐</p>
+
+        <button id="yesButton">YES 😘</button>
+        <button id="noButton">NO 😭</button>
+
+    </div>
+
+
+    <!-- SLIDE 2 -->
+    <div class="container" id="secondSlide" style="display: none;">
+
+        <h1>YAYYYY!!! 🎉💕</h1>
+
+        <p>I knew you would say yes! 🥰🌹</p>
+
+        <button id="nextButton">Next 💕</button>
+
+    </div>
+
+
+    <!-- SLIDE 3 -->
+    <div class="container" id="thirdSlide" style="display: none;">
+
+        <h1>What should we do? 💕</h1>
+
+        <p>Choose something you would enjoy! 🌸</p>
+
+        <div class="dateChoices">
+
+            <button id="movieButton">
+                🎬
+                <br>
+                Movie
+            </button>
+
+            <button id="cafeButton">
+                ☕
+                <br>
+                Cafe
+            </button>
+
+            <button id="walkButton">
+                🌳
+                <br>
+                Walk
+            </button>
+
+            <button id="sleepoverButton">
+                💤
+                <br>
+                Sleepover
+            </button>
+
+        </div>
+
+        <p id="choiceMessage"></p>
+
+    </div>
+
+
+    <!-- SLIDE 4 -->
+    <div class="container" id="dateSlide" style="display: none;">
+
+        <h1>When should we go? 📅💕</h1>
+
+        <p id="selectedActivity"></p>
+
+        <p>Pick a date you like! 🌸</p>
+
+        <input type="date" id="datePicker">
+
+        <br><br>
+
+        <button id="dateNextButton">Next 💕</button>
+
+    </div>
+
+
+    <!-- SLIDE 5 -->
+    <div class="container" id="fourthSlide" style="display: none;">
+
+        <div class="party-popper">
+            🎉
+        </div>
+
+        <h1>Thank You! 💕</h1>
+
+        <p id="finalMessage"></p>
+
+        <p>I'm so excited for our date! 🥰🌸</p>
+
+        <p>Can't wait! 💖✨</p>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
